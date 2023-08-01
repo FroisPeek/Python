@@ -8,5 +8,5 @@ while True:
     else:
         lista_nota.append(nota)
 
-print("A media da turma: ", sum(lista_nota) / len(lista_nota))
+print(f"A media da turma: {(sum(lista_nota) / len(lista_nota)):.2f}")
 print("A quantidade de alunos: ", len(lista_nota))
